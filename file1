@@ -1,2 +1,5 @@
-hi this is the file1 data code 
-this is the 2nd line code for file1
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello from Java!");
+    }
+}
