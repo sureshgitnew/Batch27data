@@ -1,1 +1,17 @@
-this is the file2 data code
+package dev.neelesh.jni;
+
+public class JNIDemo {
+
+    // Declare a native method
+    public native void sayHello();
+
+    // Load the library that contains the native method implementation
+    static {
+        System.loadLibrary("jni_demo");
+    }
+
+    public static void main(String[] args) {
+        JNIDemo demo = new JNIDemo();
+        demo.sayHello();
+    }
+}
