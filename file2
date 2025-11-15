@@ -3,7 +3,7 @@ package dev.neelesh.jni;
 public class JNIDemo {
 
     // Declare a native method
-    public native void sayHello();
+    public native void sayHi();
 
     // Load the library that contains the native method implementation
     static {
@@ -12,6 +12,6 @@ public class JNIDemo {
 
     public static void main(String[] args) {
         JNIDemo demo = new JNIDemo();
-        demo.sayHello();
+        demo.sayHi();
     }
 }
