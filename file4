@@ -1,1 +1,2 @@
 sudo gcc -dynamiclib -o ./bin/libjni_demo.dylib jni/JNIDemo.c -I${JAVA_HOME}/include -I${JAVA_HOME}/include/darwin
+MONTH-DATE-YEAR
