@@ -3,4 +3,4 @@ public class HIWORLD {
         System.out.println("Hello from Java!");
     }
 }
-Hi
+Hello
